@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 open class ToastOverlays: NSObject {
-
+    static let progressViewTag = 100000111
     static let containerViewTag = 100000999
     static let cornerRadius = CGFloat(10)
     static let padding = CGFloat(10)
@@ -61,6 +61,10 @@ open class ToastOverlays: NSObject {
     }
     
     // MARK: show in view
+    @discardableResult
+    open class func showLoading(inView view: UIView) -> UIView {
+        return showCenteredWaitOverlay(view)
+    }
     
     @discardableResult
     open class func showLoading(inView view: UIView, withText text: String) -> UIView  {
@@ -80,7 +84,7 @@ open class ToastOverlays: NSObject {
     @discardableResult
     open class func showProgressLoading(inView view: UIView, withText text: String) -> UIView  {
         let pv = UIProgressView(progressViewStyle: .default)
-        
+        pv.tag = progressViewTag
         return showGenericOverlay(view, text: text, accessoryView: pv, horizontalLayout: false)
     }
     
@@ -210,13 +214,13 @@ open class ToastOverlays: NSObject {
     
     open class func updateOverlayText(_ parentView: UIView, text: String) {
         if let overlay = parentView.viewWithTag(containerViewTag) {
-            overlay.subviews.flatMap { $0 as? UILabel }.first?.text = text
+            overlay.subviews.compactMap { $0 as? UILabel }.first?.text = text
         }
     }
     
     open class func updateLoadingProgress(_ parentView: UIView, progress: Float) {
         if let overlay = parentView.viewWithTag(containerViewTag) {
-            overlay.subviews.flatMap { $0 as? UIProgressView }.first?.progress = progress
+            overlay.subviews.compactMap { $0 as? UIProgressView }.first?.progress = progress
         }
     }
     

@@ -7,18 +7,36 @@
 //
 
 import UIKit
+import YangToastView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func toasttip(_ sender: Any) {
+        view.showToast(withMessage: "tip提示", dismissAfter: 1.5)
+    }
+    
 
+    @IBAction func toastloading(_ sender: Any) {
+        view.showLoading()
+    }
+    
+    @IBAction func toastloadingwithtext(_ sender: Any) {
+        view.showLoading(withText: "加载中")
+    }
+    
+    
+    @IBAction func toastprogress(_ sender: Any) {
+        let progress = view.showProgressLoading()
+        progress.progress = 0.6
+    }
+    
 }
 
