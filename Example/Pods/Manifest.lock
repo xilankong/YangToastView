@@ -1,0 +1,16 @@
+PODS:
+  - YangToastView (0.1.0)
+
+DEPENDENCIES:
+  - YangToastView (from `../`)
+
+EXTERNAL SOURCES:
+  YangToastView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YangToastView: 990b16c5cc396e099b81cfc8018a1a75445e3290
+
+PODFILE CHECKSUM: f90a148aa748a06c3cf29754070bbb6b2cd1cc33
+
+COCOAPODS: 1.5.0

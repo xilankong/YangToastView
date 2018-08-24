@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		65E2F961D8FFF60064AEA5FD /* Pods_YangToastView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangToastView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F1BC0197172A14B4802645F /* YangToastView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YangToastView.podspec; path = ../YangToastView.podspec; sourceTree = "<group>"; };
-		9447CFAE7E6E5FAE7A16FB46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7F1BC0197172A14B4802645F /* YangToastView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YangToastView.podspec; path = ../YangToastView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9447CFAE7E6E5FAE7A16FB46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A07BFE104F37D9E9FADCBDC /* Pods-YangToastView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangToastView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangToastView_Example/Pods-YangToastView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9C08014A48A68E2801FE4A13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9C08014A48A68E2801FE4A13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9F1031B3513CCEAE4FA5385A /* Pods-YangToastView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangToastView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangToastView_Example/Pods-YangToastView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D0E5242313D666BF75F54D1E /* Pods-YangToastView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangToastView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangToastView_Tests/Pods-YangToastView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
