@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YangToastView_Example' do
+  pod 'YangToastView', :path => '../'
+
+  target 'YangToastView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
