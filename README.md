@@ -12,16 +12,16 @@ pod 'YangToastView'
 
 
 
-![1](/Users/young/Desktop/demo/github/YangToastView/images/1.png)
+![1](https://github.com/xilankong/YangToastView/blob/master/images/1.png)
 
 2、
 
-![2](/Users/young/Desktop/demo/github/YangToastView/images/2.png)
+![2](https://github.com/xilankong/YangToastView/blob/master/images/2.png)
 
 3、
 
-![3](/Users/young/Desktop/demo/github/YangToastView/images/3.png)
+![3](https://github.com/xilankong/YangToastView/blob/master/images/3.png)
 
 4、
 
-![4](/Users/young/Desktop/demo/github/YangToastView/images/4.png)
+![4](https://github.com/xilankong/YangToastView/blob/master/images/4.png)
